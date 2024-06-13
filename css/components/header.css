@@ -47,3 +47,13 @@ header .header__right .header__image .background{
     right: 10rem;
     z-index: -1;
 }
+
+@media only screen and (max-width: 768px) {
+    header{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    header .header__left p{
+        margin: 2rem auto 4rem;
+    }
+}
