@@ -12,7 +12,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  margin-top: 15rem;
+  margin-top: 13rem;
+  background-color: var(--header-background-color);
 }
 
 ul {
@@ -76,7 +77,7 @@ p:not(:last-of-type),
   max-width: 120rem;
   padding: 0 4rem;
   margin: 0 auto;
-  margin-bottom: 26rem;
+  margin-bottom: 13rem;
 }
 
 .mb-0 {

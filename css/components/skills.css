@@ -1,6 +1,6 @@
 .skills{
     background-color: var(--light-tertiary-color);
-    scroll-margin-top: 15rem;
+    scroll-margin-top: -14px;
 }
 
 .skills .skills__content{
@@ -9,14 +9,14 @@
 }
 
 .skills .skills__content .description{
-    max-width: 56rem;
-    margin: 0 auto 6rem;
+    max-width: 62rem;
+    margin: 1rem auto 6rem;
 }
 
 .skills .skills__content ul{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .skills .skills__content ul li .image-container{

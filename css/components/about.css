@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     gap: 4rem;
-    scroll-margin-top: 20rem;
+    scroll-margin-top: 15rem;
+    background-color: var(--header-background-color);
 }
 
 .about .about__left {
@@ -11,7 +12,7 @@
 }
 
 .about .about__left p{
-    margin: 1 rem 0 2rem;
+    margin: 1rem 0 2rem;
 }
 
 .about .about__left ul {
