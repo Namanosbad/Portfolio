@@ -7,9 +7,13 @@
   --secondary-color: #8b5e55;
   --dark-secondary-color: #3c415c;
   --tertiary-color: #eba58e;
-  --light-tertiary-color: #c1a4a4 ;
+  --light-tertiary-color: #ead7d3;
   --text-color: #343d48;
   --header-background-color: #ffffff;
+  --surface-color: #fff8f6;
+  --soft-shadow: 0 1.2rem 3rem rgba(102, 68, 64, 0.12);
+  --card-shadow: 0 0.8rem 2rem rgba(102, 68, 64, 0.08);
+  --transition-base: 0.3s ease;
 
   --font-family: 'DM Sans', sans-serif;
 }

@@ -13,7 +13,8 @@ html {
 body {
   font-size: 1.6rem;
   margin-top: 13rem;
-  background-color: var(--header-background-color);
+  background: radial-gradient(circle at top right, #fff4ef 0%, var(--header-background-color) 45%);
+  color: var(--text-color);
 }
 
 ul {
@@ -23,6 +24,7 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color var(--transition-base), transform var(--transition-base), opacity var(--transition-base);
 }
 
 h1 {
@@ -57,19 +59,31 @@ p:not(:last-of-type),
 }
 
 .btn {
-  background-color: none;
+  background-color: transparent;
   border: none;
   outline: none;
   padding: 1rem 4rem;
   display: inline-block;
-  border-radius: 0.5rem;
+  border-radius: 999px;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), filter var(--transition-base);
 }
 
 .btn.btn-primary {
-  background-color: var(--dark-secondary-color);
+  background: linear-gradient(135deg, var(--dark-secondary-color), #4f557a);
   color: var(--white);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.4rem;
+  box-shadow: var(--card-shadow);
+}
+
+.btn.btn-primary:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: var(--soft-shadow);
+}
+
+.btn.btn-primary:active {
+  transform: translateY(0);
+  filter: brightness(0.96);
 }
 
 .max-width {

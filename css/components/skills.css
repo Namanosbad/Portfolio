@@ -1,40 +1,52 @@
-.skills{
-    background-color: var(--light-tertiary-color);
-    scroll-margin-top: 10rem;
+.skills {
+  background-color: var(--light-tertiary-color);
+  scroll-margin-top: 10rem;
 }
 
-.skills .skills__content{
-    padding: 10rem 4rem;
-    text-align: center;
+.skills .skills__content {
+  padding: 10rem 4rem;
+  text-align: center;
 }
 
-.skills .skills__content .description{
-    max-width: 62rem;
-    margin: 1rem auto 6rem;
+.skills .skills__content .description {
+  max-width: 62rem;
+  margin: 1rem auto 6rem;
 }
 
-.skills .skills__content ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1rem;
+.skills .skills__content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
 }
 
-.skills .skills__content ul li .image-container{
-    background-color: var(--white);
-    padding: 2rem;
-    border-radius: 50%;
-    width: 7rem;
-    height: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
+.skills .skills__content ul li {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1.6rem;
+  padding: 2.4rem 2rem;
+  box-shadow: var(--card-shadow);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 
-.skills .skills__content ul li h3{
-    font-size: 1.6rem;
-    font-weight: 500;
-    margin: 2rem 0 1rem;
+.skills .skills__content ul li:hover {
+  transform: translateY(-0.4rem);
+  box-shadow: var(--soft-shadow);
 }
 
+.skills .skills__content ul li .image-container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.skills .skills__content ul li h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
