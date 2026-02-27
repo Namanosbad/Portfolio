@@ -15,6 +15,41 @@
   gap: 1.6rem;
 }
 
+.navbar__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__brand-mark {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--tertiary-color), #f5dcb8);
+  color: var(--brown);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.navbar__brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.navbar__brand-text strong {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+.navbar__brand-text small {
+  font-size: 1.1rem;
+  color: var(--tertiary-color);
+}
+
 .navbar .navbar__content .navbar__links {
   margin-left: auto;
 }
@@ -78,6 +113,10 @@
   }
 
   .navbar .navbar__content .navbar__links {
+    display: none;
+  }
+
+  .navbar__brand-text small {
     display: none;
   }
 

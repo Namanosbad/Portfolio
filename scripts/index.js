@@ -7,6 +7,7 @@ const i18nElements = document.querySelectorAll('[data-i18n]');
 
 const translations = {
   pt: {
+    'brand.role': 'Desenvolvedor Back-end',
     'nav.home': 'Início',
     'nav.about': 'Sobre',
     'nav.skills': 'Habilidades',
@@ -42,6 +43,7 @@ const translations = {
     'footer.copyright': '©2024 Matheus Lima. Todos os direitos reservados.'
   },
   en: {
+    'brand.role': 'Backend Developer',
     'nav.home': 'Home',
     'nav.about': 'About',
     'nav.skills': 'Skills',
