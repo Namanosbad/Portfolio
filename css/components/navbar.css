@@ -19,12 +19,17 @@
   display: inline-flex;
   align-items: center;
   gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.navbar__brand:hover {
+  transform: translateY(-0.1rem);
 }
 
 .navbar__brand-mark {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 1.2rem;
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
   display: grid;
   place-items: center;
   background: linear-gradient(135deg, var(--tertiary-color), #f5dcb8);
@@ -32,6 +37,7 @@
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
+  box-shadow: 0 0.4rem 1rem rgba(245, 220, 184, 0.35);
 }
 
 .navbar__brand-text {
